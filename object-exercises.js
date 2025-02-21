@@ -1,3 +1,4 @@
+'use strict';
 // Exercise 1: Create an object representing a car with properties: make, model, year.
 
 // Exercise 2: Access and log the 'model' property from the car object.
