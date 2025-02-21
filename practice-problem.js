@@ -11,3 +11,14 @@ You are designing a simple inventory system for a small store. Create an object 
 
 Once you've created the store object, log the total inventory value by calling the method.
 */
+let store = {
+    name: "O'reily's",
+    location: "San Francisco",
+    inventory: [
+        { item: "Oil", price: 25.99, inv: 42 },
+        { item: "Oil Filter", price: 15.99, inv: 23}
+        
+    ]
+}
+console.log(store.name)
+console.log(store.inventory)
