@@ -21,4 +21,6 @@ let store = {
     ]
 }
 console.log(store.name)
-console.log(store.inventory)
+// console.log(store.inventory)
+console.log(store.inventory[0].price * store.inventory[0].inv);
+console.log(store.inventory[1].price * store.inventory[1].inv);
